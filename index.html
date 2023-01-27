@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <a class="header__logo" href="index.html"
+          >Web<span class="header__logo--span">Studio</span></a
+        >
+        <nav>
+          <ul class="header__navigation">
+            <li>
+              <a class="header__navigation--active" href="index.html"
+                >Agencja</a
+              >
+            </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="header__contact">
+          <li>
+            <a href="mailto:info@devstudio.com"
+              ><svg class="header__icon">
+                <use href="images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111">
+              <svg class="header__icon">
+                <use href="images/icons.svg#icon-smartphone"></use></svg
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <section class="main__section">
+          <h1 class="main__slogan">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button class="main__button" type="button" data-modal-open>
+            Zamów usługe
+          </button>
+        </section>
+      </div>
+      <div class="main__description--box">
+        <section>
+          <ul class="main__description">
+            <li>
+              <div class="main__description-icons-box">
+                <svg class="main__description-icons">
+                  <use href="images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
+              <p>LOREM IPSUM</p>
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </li>
+            <li>
+              <div class="main__description-icons-box">
+                <svg class="main__description-icons">
+                  <use href="images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
+              <p>LOREM IPSUM</p>
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </li>
+            <li>
+              <div class="main__description-icons-box">
+                <svg class="main__description-icons">
+                  <use href="images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
+              <p>LOREM IPSUM</p>
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </li>
+            <li>
+              <div class="main__description-icons-box">
+                <svg class="main__description-icons">
+                  <use href="images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
+              <p>LOREM IPSUM</p>
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="main__team">
+        <section>
+          <h2 class="main__sec-header">Czym sie zajmujemy</h2>
+          <ul class="main__pictures">
+            <li>
+              <div class="main__picture-container">
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img.jpg"
+                  alt="osoba pisze kod na klawiaturze"
+                  width="370"
+                  height="294"
+                />
+                <p class="main__pictures-text">aplikacje komputerowe</p>
+              </div>
+            </li>
+            <li>
+              <div class="main__picture-container">
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(1).jpg"
+                  alt="osoba patrzy na telefon korzystając z laptopa"
+                  width="370"
+                  height="294"
+                />
+                <p class="main__pictures-text">aplikacje mobilne</p>
+              </div>
+            </li>
+            <li>
+              <div class="main__picture-container">
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(2).jpg"
+                  alt="osoba wybiera kolor na tablecie"
+                  width="370"
+                  height="294"
+                />
+                <p class="main__pictures-text">rozwiązania graficzne</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section>
+        <div class="main__people-container">
+          <h2 class="main__sec-header">Nasz zespół</h2>
+          <ul class="main__people">
+            <li>
+              <figure>
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(3).jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Product Designer</p>
+                  <div>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-instagram-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-twitter-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-facebook-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-linkedin-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(4).jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Frontend Developer</p>
+                  <div>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-instagram-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-twitter-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-facebook-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-linkedin-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(5).jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Marketing</p>
+                  <div>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-instagram-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-twitter-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-facebook-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-linkedin-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="https://raw.githubusercontent.com/Wzemczak/goit-markup-hw-01/main/images/img(6).jpg"
+                  alt="John Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>UI Designer</p>
+                  <div>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-instagram-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-twitter-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-facebook-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                    <svg class="main__links">
+                      <circle
+                        class="main__circle-person"
+                        r="22px"
+                        cx="22px"
+                        cy="22px"
+                      ></circle>
+                      <use
+                        width="22px"
+                        height="44px"
+                        href="images/icons.svg#icon-linkedin-1"
+                        x="11px"
+                      ></use>
+                    </svg>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="main__customers">Nasi klienci</h2>
+        <div class="main__customers-box">
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo"></use>
+          </svg>
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo-1"></use>
+          </svg>
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo-2"></use>
+          </svg>
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo-3"></use>
+          </svg>
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo-4"></use>
+          </svg>
+          <svg class="main__customers-logos">
+            <use href="images/icons.svg#icon-Logo-5"></use>
+          </svg>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <a class="footer__logo" href="index.html"
+          >Web<span class="footer__logo-span">Studio</span></a
+        >
+        <address>
+          <ul class="footer__contact">
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </address>
+        <div class="footer__join-us">
+          <p>dołącz do nas</p>
+          <div class="footer__links-containers">
+            <svg class="footer__links">
+              <circle
+                class="footer__circle"
+                r="22px"
+                cx="22px"
+                cy="22px"
+              ></circle>
+              <use
+                width="22px"
+                height="44px"
+                href="images/icons.svg#icon-instagram-1"
+                x="11px"
+              ></use>
+            </svg>
+            <svg class="footer__links">
+              <circle
+                class="footer__circle"
+                r="22px"
+                cx="22px"
+                cy="22px"
+              ></circle>
+              <use
+                width="22px"
+                height="44px"
+                href="images/icons.svg#icon-twitter-1"
+                x="11px"
+              ></use>
+            </svg>
+            <svg class="footer__links">
+              <circle
+                class="footer__circle"
+                r="22px"
+                cx="22px"
+                cy="22px"
+              ></circle>
+              <use
+                width="22px"
+                height="44px"
+                href="images/icons.svg#icon-facebook-1"
+                x="11px"
+              ></use>
+            </svg>
+            <svg class="footer__links">
+              <circle
+                class="footer__circle"
+                r="22px"
+                cx="22px"
+                cy="22px"
+              ></circle>
+              <use
+                width="22px"
+                height="44px"
+                href="images/icons.svg#icon-linkedin-1"
+                x="11px"
+              ></use>
+            </svg>
+          </div>
+        </div>
+        <form class="footer__newsletter">
+          <label>
+            <p class="footer__newsletter-text">Zapisz się do newslettera</p>
+            <input
+              class="footer__newsletter-input"
+              type="text"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="footer__newsletter-btn" type="submit">
+            Zapisz się
+            <svg width="24px" height="24px" class="footer__icon-send">
+              <use
+                width="24px"
+                height="24px"
+                href="./images/icons.svg#icon-icon-send"
+              ></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop__modal-window">
+        <button type="button" class="backdrop__button-close" data-modal-close>
+          <svg class="backdrop__icon-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form class="backdrop__form">
+          <div
+            class="backdrop__form-group"
+            role="group"
+            aria-labelledby="contact-details-head"
+          >
+            <p class="backdrop__contact-details-head">
+              Zostaw swoje dane w formularzu poniżej
+            </p>
+            <label class="backdrop__form-design">
+              <p class="backdrop__form-headers">Imie</p>
+
+              <input class="backdrop__form-input" type="text" name="username" />
+            </label>
+            <label class="backdrop__form-design">
+              <p class="backdrop__form-headers">Email</p>
+              <input class="backdrop__form-input" type="email" name="email" />
+            </label>
+            <label class="backdrop__form-design">
+              <p class="backdrop__form-headers">Telefon</p>
+              <input
+                class="backdrop__form-input"
+                type="tel"
+                name="phone_number"
+              />
+            </label>
+            <label class="backdrop__form-design">
+              <p class="backdrop__form-headers">Komentarz</p>
+              <textarea
+                class="backdrop__form-comment"
+                name="feedback"
+                rows="6"
+                placeholder="Wprowadz tekst"
+              ></textarea>
+            </label>
+            <label>
+              <input
+                class="backdrop__check"
+                type="checkbox"
+                name="cons&terms"
+              />
+              Oświadczam iż akceptuję
+              <a class="backdrop__form-link" href=""> Regulamin</a> i
+              <a class="backdrop__form-link" href=""> Politykę Prywatności</a>.
+            </label>
+            <button class="backdrop__window-btn" type="submit">Wyślij</button>
+            <svg class="backdrop__form-icon-person">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-person-black-18dp-1"
+              ></use>
+            </svg>
+            <svg class="backdrop__form-icon-email">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-email-black-18dp-1"
+              ></use>
+            </svg>
+            <svg class="backdrop__form-icon-phone">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-phone-black-18dp-1"
+              ></use>
+            </svg>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
