@@ -1,0 +1,59 @@
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/contact";
+@import "./components/main";
+@import "./components/main-dscr";
+@import "./components/team";
+@import "./components/grid";
+@import "./components/projects";
+@import "./components/footer";
+@import "./components/join-us";
+@import "./components/newsletter";
+@import "./components/backdrop";
+@import "./utils/_variables.scss";
+
+body {
+  font-family: $mainFont;
+  color: $textColor;
+  max-width: 1600px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+}
+h1 {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+}
+h4 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0px;
+}
+* {
+  padding-inline-start: 0px;
+}
+header {
+  border-bottom: 1px solid $headerBorderColor;
+}
+
+footer {
+  background-color: $backgroundColor;
+}
+a {
+  text-decoration: none;
+}
+:hover {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+:focus {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

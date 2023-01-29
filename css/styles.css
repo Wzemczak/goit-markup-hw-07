@@ -27,6 +27,9 @@ p {
 * {
   padding-inline-start: 0px;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 
 footer {
   background-color: var(--background-color);
@@ -40,9 +43,6 @@ a {
   --secondery-color: #757575;
   --background-color: #2f303a;
   --text-color: #212121;
-}
-header {
-  border-bottom: 1px solid #ececec;
 }
 .header {
   max-width: 1200px;
@@ -334,7 +334,7 @@ header {
   height: 70px;
   width: 100%;
   background-color: rgba(47, 48, 58, 0.8);
-  padding-top: 25px;color
+  padding-top: 25px;
 }
 .main__picture-container {
   position: relative;
@@ -647,10 +647,8 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
-
-
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .backdrop__form-link {
   color: var(--brand-color);
@@ -683,4 +681,6 @@ color: #757575;
 .backdrop__form-input:focus > .form-icon-phone {
   fill: var(--brand-color);
 }
-.footer__icon-send{margin-left: 10px;}
+.footer__icon-send {
+  margin-left: 10px;
+}
